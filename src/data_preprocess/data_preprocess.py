@@ -32,11 +32,12 @@ def generate_file(out_file):
     with open('tmp.txt','w', encoding="utf8") as fw:
         fw.write(str([item['id'] for item in info_json if len(item['doc_list']) < 10]))
     print([len(item['doc_list']) for item in info_json])
+    info_json = [item for item in info_json if len(item['doc_list']) >= 6]
     json.dump(info_json, open(out_file, 'w'))
 
 out_path = '../../random_data/'
 query_dic, query_num = get_query_info()
-for i in range(0, 1):
+for i in range(0, 33):
     random.seed(i)
     generate_file(out_path + str(i) + '.json')
 
