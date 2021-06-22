@@ -1,0 +1,4 @@
+{'quesion_id': 0, 'doc_id': 15, 'ans': 9, 'time_stamp': 1624261485.100562}
+{'quesion_id': 0, 'doc_id': 0, 'ans': 6, 'time_stamp': 1624261490.1741626}
+{'quesion_id': 0, 'doc_id': 15, 'ans': 9, 'time_stamp': 1624261522.538225}
+{'quesion_id': 0, 'doc_id': 0, 'ans': 6, 'time_stamp': 1624261523.9623716}
